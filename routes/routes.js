@@ -1,7 +1,7 @@
 
 
 import e from "express";
-import { defaultRoute, homeRoute, loginRoute } from "./controller";
+import { defaultRoute, homeRoute, loginRoute } from "./controller.js";
 
 const router = e.Router();
 
