@@ -14,7 +14,7 @@ app.get("/home", (req, res) => {
 
 app.post("/login", (req, res) => {
     res.status(201).send("Login successful !")
-})
+});
 
 app.listen(4444, () => {
     console.log("Server is Running on PORT 4444");
